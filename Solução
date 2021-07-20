@@ -1,41 +1,14 @@
 using System; 
 
 class URI {
+    static void Main(string[] args) 
+    { 
+         int x = int.Parse(Console.ReadLine());
 
-    static void Main(string[] args) { 
-
-        int n = int.Parse(Console.ReadLine());
-            string saida= "";
-
-            while (n != 0)
+            for (int cont = 0; cont < x; cont++)
             {
-
-                string entrada = Console.ReadLine();
-
-                int[] arr = Array.ConvertAll<string, int>(entrada.Split(' '), int.Parse);
-                int a = arr[0];
-                int b = arr[1];
-
-                if (b > a)
-                {
-                    saida += "não encaixa\n" ;
-                }
-
-                else if (a % 10 == b % 10)
-                {
-
-                    saida += "encaixa\n";
-
-                }
-
-                else
-                {
-                    saida += "não encaixa\n";
-                }
-                n--;
-            }
-            Console.WriteLine(saida);
-
+                string[] arr = Console.ReadLine().Split(' ');
+                Console.WriteLine(arr[0].EndsWith(arr[1]) ? "encaixa" : "nao encaixa");
     }
-
+  }
 }
