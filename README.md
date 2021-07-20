@@ -1,4 +1,9 @@
 # URI-1240 C#
+  URI Online Judge | 1240
+  Encaixa ou Não I
+  Adaptado por Neilor Tonin, URI  Brasil
+
+  Timelimit: 1
 
 Paulinho tem em suas mãos um pequeno problema. A professora lhe pediu que ele construísse um programa para verificar, à partir de dois valores inteiros A e B, se B corresponde aos últimos dígitos de A.
 
