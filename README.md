@@ -1,4 +1,4 @@
-# URI-1240---Encaixa-ou-N-o-
+# URI-1240 C#
 
 Paulinho tem em suas mãos um pequeno problema. A professora lhe pediu que ele construísse um programa para verificar, à partir de dois valores inteiros A e B, se B corresponde aos últimos dígitos de A.
 
